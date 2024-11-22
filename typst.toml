@@ -1,12 +1,12 @@
 [package]
-name = "tinyset"
+name = "chatter"
 version = "0.1.0"
 entrypoint = "lib.typ"
 authors = ["Sylvan Franklin"]
 license = "MIT"
-description = "Simple, consistent, and appealing math homework template"
-repository = "https://github.com/sylvanfranklin/tinyset"
-categories = ["Layout"]
-keywords = ["Math", "HW", "pset", "Minimal"]
+description = "Snappy Dialog"
+repository = "https://github.com/sylvanfranklin/chatter"
+categories = ["Template"]
+keywords = ["English", "Homework", "Formatting", "Colorful"]
 exclude = ["*.pdf"]
-disciplines = ["mathematics"]
+disciplines = ["writin'"]
