@@ -3,10 +3,10 @@ name = "chatter"
 version = "0.1.0"
 entrypoint = "lib.typ"
 authors = ["Sylvan Franklin"]
-license = "MIT"
-description = "Snappy Dialog"
-repository = "https://github.com/sylvanfranklin/chatter"
-categories = ["Template"]
-keywords = ["English", "Homework", "Formatting", "Colorful"]
-exclude = ["*.pdf"]
-disciplines = ["writin'"]
+license = "MIT-0"
+description = "Write dialouge between any number of characters quickly and cleanly. Great for translations or short assignments"
+
+[template]
+path = "template"
+entrypoint = "main.typ"
+thumbnail = "thumbnail.png"
