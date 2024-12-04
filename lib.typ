@@ -8,8 +8,8 @@
       ],
     )
     set text(
-      font: "DejaVu Sans Mono",
-      size: 10pt,
+      font: "PT Mono",
+      size: 12pt,
     )
     doc
   }
@@ -19,7 +19,7 @@
   ]
 
   #let log(number_lines: 5, body) = {
-    set terms(separator: h(1em), hanging-indent: 4em, spacing: 2em)
+    set terms(separator: h(2em), hanging-indent: 5em, spacing: 1em)
     set par.line(
       numbering: i => if calc.rem(i, number_lines) == 0 {i},
       number-margin: right,
