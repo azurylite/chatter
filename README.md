@@ -8,16 +8,18 @@ conversations.
 This will all be created for you with with typst init. 
 
 ```typ
-#let C = "Charlie"
-#let T = "Thomas"
+#import "lib.typ" : *; 
+
+#let H = "Howard Moon"
+#let T = "Tony Harrison"
 
 #log()[
-  #say(C)[Big Charlie, on the beat!]
-  _(#T hears the producer tag)_
-  #say(T)[I say, that was...]
-  ...
+    #say(H)[But It's a jazz Funk classic]
+    _The crunch happens_
+    #say(T)[This is an outrage]
 ]
 ```
+
 > [!TIP]
 > Vim Macros and Custom snippets can make this even faster if you have the
 > expertise so set them up, I have some in my
@@ -28,6 +30,7 @@ This will all be created for you with with typst init.
 You can copy and paste over the template, or better yet once I get this bad boy
 on [typst universe](https://typst.app/universe/). You should be able to simply
 create a new assignement / dialog page with a command.
+
 <!-- ```sh -->
 <!-- typst init @preview/chatter:0.1.0 -->
 <!-- ``` -->
