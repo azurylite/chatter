@@ -1,6 +1,5 @@
 #let conf(title: none, doc) = {
   set page(
-    paper: "us-letter",
     header: [
       #align(
         right + horizon,
