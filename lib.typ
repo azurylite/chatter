@@ -29,4 +29,4 @@
     ]
   }
 
-  #let say = (name, saying) => [/ #upper()[#character(name)]: #saying]
+  #let say = (name, saying) => [/ #character(name): #saying]
