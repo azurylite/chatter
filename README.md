@@ -6,7 +6,6 @@ conversations.
 
 ### Use 
 This will all be created for you with with typst init. 
-
 ```typ
 #import "lib.typ" : *; 
 
@@ -15,24 +14,19 @@ This will all be created for you with with typst init.
 
 #log()[
     #say(H)[But It's a jazz Funk classic]
-    _The crunch happens_
     #say(T)[This is an outrage]
+    ...
 ]
 ```
 
 > [!TIP]
-> Vim Macros and Custom snippets can make this even faster if you have the
-> expertise so set them up, I have some in my
-> [dotfiles](https://github.com/sylvanfranklin/.config) but working on getting
-> more.
+> Vim macros and custom snippets can make this even faster if you have the
+> expertise so set them up. 
 
-# Usage
-You can copy and paste over the template, or better yet once I get this bad boy
-on [typst universe](https://typst.app/universe/). You should be able to simply
-create a new assignement / dialog page with a command.
-
-<!-- ```sh -->
-<!-- typst init @preview/chatter:0.1.0 -->
-<!-- ``` -->
-<!---->
 ![](thumbnail.jpg)
+
+# Install
+You can copy and paste over the template, or: 
+```sh
+typst init @preview/chatter:0.1.0
+```
