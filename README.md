@@ -1,11 +1,10 @@
 # Chatter
-Typst Dialogue template! Quickly create snazzy conversations between one or
-more characters. `Chatter` Aims to be ergonomic so that you can focus on
-writing. With variables for characters you can absolutely fly through
-conversations.  
+Typst Dialogue template designed for print. `Chatter` Aims to be an ergonomic
+abstraction to the `typst` terms list function so that you can focus on
+writing. For the best experience use variables for your characters: 
 
 ### Use 
-This will all be created for you with with typst init. 
+This will all be created for you with with `typst init`. 
 ```typ
 #import "lib.typ" : *; 
 
