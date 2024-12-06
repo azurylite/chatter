@@ -35,4 +35,4 @@ create a new assignement / dialog page with a command.
 <!-- typst init @preview/chatter:0.1.0 -->
 <!-- ``` -->
 <!---->
-![](thumbnail.png)
+![](thumbnail.jpg)

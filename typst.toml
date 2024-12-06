@@ -7,7 +7,7 @@ license = "MIT-0"
 repository = "https://github.com/sylvanfranklin/chatter"
 categories = ["Layout"]
 keywords = ["Homework", "English", "Translation", "Dialouge", "Conversation"]
-exclude = ["*.pdf"]
+exclude = ["*.pdf", "*.jpg"]
 description = "Write dialouge between any number of characters quickly and cleanly. Great for translations or short assignments"
 
 [template]
