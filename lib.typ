@@ -3,29 +3,30 @@
     header: [
       #align(
         right + horizon,
-        [#title])
-      ],
-    )
-    set text(
-      font: "PT Mono",
-      size: 12pt,
-    )
-    doc
-  }
+        [#title],
+      )
+    ],
+  )
+  set text(
+    font: "PT Mono",
+    size: 12pt,
+  )
+  doc
+}
 
-  #let character = (name) => [
-    #upper(name.slice(0, 3)).
+#let character = name => [
+  #upper(name.slice(0, 3)).
+]
+
+#let log(number_lines: 5, body) = {
+  set terms(separator: h(2em), hanging-indent: 5em, spacing: 1em)
+  set par.line(
+    numbering: i => if calc.rem(i, number_lines) == 0 { i },
+    number-margin: right,
+  )
+  block(stroke: (left: 4pt), inset: 1em)[
+    #body
   ]
+}
 
-  #let log(number_lines: 5, body) = {
-    set terms(separator: h(2em), hanging-indent: 5em, spacing: 1em)
-    set par.line(
-      numbering: i => if calc.rem(i, number_lines) == 0 {i},
-      number-margin: right,
-    )
-    block(stroke: (left: 4pt), inset: 1em)[
-      #body
-    ]
-  }
-
-  #let say = (name, saying) => [/ #character(name): #saying]
+#let say = (name, saying) => [/ #character(name): #saying]
