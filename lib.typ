@@ -15,7 +15,7 @@
 }
 
 #let character = name => [
-  #upper(name.slice(0, 3)).
+  #upper(name.slice(0, calc.min(3, name.len()))).
 ]
 
 #let log(number_lines: 5, body) = {
